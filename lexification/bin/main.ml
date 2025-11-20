@@ -56,19 +56,22 @@ and lexer (c_list : char list) : token list =
   | c :: rest -> word_lex [] c_list
 
 let () =
-  let s = "Je suis une patate , j'aime les frites, je suis donc canibale (des paatates)." in
-  let toktok = lexer (string_to_list s) in
+  let t = In_channel.stdin in
+  Printf.printf "echooooooo %s" (list_to_string (put_channel_in_char_list t))
+(*
+  let path = "./code_travail.txt" in
+  let channel = In_channel.open_text path in
+  let c_list = put_channel_in_char_list channel in
+  let toktok = lexer c_list in
   print_list print_token toktok
 
 
-(*
 destruct 
 | cas when condition -> whateutodo
 
     Word (list_to_string [' '])
 let path = "./test"
 
-let channel = In_channel.open_text path
 *)
 
 
