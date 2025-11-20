@@ -1,5 +1,0 @@
-(executable
- (flags :standard -w -27-32)
- (public_name lexification)
- (name main)
- (libraries lexification))
