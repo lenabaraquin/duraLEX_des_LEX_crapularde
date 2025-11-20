@@ -1,36 +1,36 @@
-*.annot
-*.cmo
-*.cma
-*.cmi
-*.a
-*.o
-*.cmx
-*.cmxs
-*.cmxa
+lexification/*.annot
+lexification/*.cmo
+lexification/*.cma
+lexification/*.cmi
+lexification/*.a
+lexification/*.o
+lexification/*.cmx
+lexification/*.cmxs
+lexification/*.cmxa
 
 # Files containing detailed information about the compilation (generated
 # by `ocamlc`/`ocamlopt` when invoked using the option `-bin-annot`).
 # These files are typically useful for code inspection tools
 # (e.g. Merlin).
-*.cmt
-*.cmti
+lexification/*.cmt
+lexification/*.cmti
 
 # ocamlbuild and Dune default working directory
-_build/
+lexification/_build/
 
 # ocamlbuild targets
-*.byte
-*.native
+lexification/*.byte
+lexification/*.native
 
 # oasis generated files
-setup.data
-setup.log
+lexification/setup.data
+lexification/setup.log
 
 # Merlin configuring file for Vim and Emacs
-.merlin
+lexification/.merlin
 
 # Dune generated files
-*.install
+lexification/*.install
 
 # Local OPAM switch
-_opam/
+lexification/_opam/
