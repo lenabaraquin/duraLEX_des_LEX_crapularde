@@ -1,0 +1,6 @@
+# dune init proj cour_ocaml
+# OCAMLPARAM: unset
+# Shared cache: enabled-except-user-rules
+# Shared cache location: /Users/lena/.cache/dune/db
+# Workspace root: /Users/lena/Documents/duraLEX_des_LEX_crapularde/cour_ocaml
+# Auto-detected concurrency: 10

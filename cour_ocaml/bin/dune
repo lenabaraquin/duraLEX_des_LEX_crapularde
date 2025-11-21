@@ -1,0 +1,4 @@
+(executable
+ (public_name cour_ocaml)
+ (name main)
+ (libraries cour_ocaml))
